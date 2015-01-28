@@ -1,7 +1,7 @@
 /*
  *	Recursive + Non-recursive DFS algo
  *
- *	javac NonRecursiveDFS.java
+ *	javac DFS.java
  *	to run:  time(java -Xmx1024m -Xms1024m -Xmn256m -Xss16m RunAlgo)
  */
 
