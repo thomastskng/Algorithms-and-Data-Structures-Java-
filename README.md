@@ -1,3 +1,3 @@
 Implementation of different algorithms and data structures:
 
-* [__MergeSort__](../MergeSort/)
+* [__MergeSort__](MergeSort/)
