@@ -14,7 +14,7 @@ Implementation of different algorithms and data structures:
 * [**Job Scehduling Problem (Greedy Algorithm)**](Job-Scheduling-Problem/)
 * [**Prim's Minimum Spanning Tree Algorithm**](Prims-Minimum-Spanning-Tree-Algorithm/)
 * [**Clustering Problem using Kruskal's Algorithm**](Kruskals-Algorithm/)  
-* [**LARGE Clustering Problem](Large-Clustering-Problem/)
+* [**LARGE Clustering Problem**](Large-Clustering-Problem/)
 * [**Knapsack Algorithm**](Knapsack-Algorithm/)
   + It contains the two implementations: iterative and recursive
 * [**Floyd Warshall Algorithm**](Floyd-Warshall-Algorithm/)
