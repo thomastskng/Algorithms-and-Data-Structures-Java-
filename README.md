@@ -5,9 +5,9 @@ Implementation of different algorithms and data structures:
 * [**Randomized Contraction Algorithm**](RandomizedContractionAlgo/)
 * [**Kosaraju's Algorithm**](StronglyConnectedComponents/)
   * Implemented Depth First Search in two approaches: Iterative and Recursive
-* [**Dijkstra's Algorithm**]
-  * Naive implementation of Dijkstra's Algorithm
-  + Heap-based implementation to speed up the Dijkstra's Algorithm
+* **Dijkstra's Algorithm**
+  + [Naive implementation of Dijkstra's Algorithm](Naive-DijkstraAlgo/)
+  - [Heap-based implementation to speed up the Dijkstra's Algorithm](Heap-based-DijkstraAlgo/)
 
 
 
