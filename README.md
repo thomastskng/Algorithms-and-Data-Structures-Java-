@@ -11,7 +11,7 @@ Implementation of different algorithms and data structures:
 *  **Median Maintanence Algorithm**
   + [Heap-based implementation](Heap-based-Median-Maintanence-Algo/)
   + Implemented the algorithm using [Red Black Tree](Red-Black-Tree-Implementation-of-Median-Maintenance-Algo/)
-* [**Job Scehduling Problem (Greedy Algorithm)**](Job-Scheduling-Problem/)
+* [**Job Scheduling Problem (Greedy Algorithm)**](Job-Scheduling-Problem/)
 * [**Prim's Minimum Spanning Tree Algorithm**](Prims-Minimum-Spanning-Tree-Algorithm/)
 * [**Clustering Problem using Kruskal's Algorithm**](Kruskals-Algorithm/)  
 * [**LARGE Clustering Problem**](Large-Clustering-Problem/)
