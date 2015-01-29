@@ -1,6 +1,8 @@
 /*
  *	Dijkstra's Algorithm
  *
+ *  javac DijkstrasAlgo.java
+ *  java DijkstrasAlgo
  */
 
 

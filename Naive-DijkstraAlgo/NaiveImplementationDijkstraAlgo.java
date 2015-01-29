@@ -1,6 +1,8 @@
 /*
  *	Naive implementation of Dijkstra's Algo
  *
+ *  javac NaiveImplementationDijkstraAlgo.java
+ *  java NaiveImplementationDijkstraAlgo
  */
 
 

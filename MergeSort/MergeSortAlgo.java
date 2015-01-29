@@ -1,3 +1,8 @@
+/*
+ *  javac MergeSortAlgo.java
+ *  java MergeSortApp
+ */
+
 import java.util.*;
 import java.io.*;
 import java.math.*;

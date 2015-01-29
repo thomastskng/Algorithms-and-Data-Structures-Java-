@@ -7,6 +7,10 @@
  *	Although heap[ 1 ... heap_length ] may contain objects,
  *	only elements in heap[1 ... heap.heap_size],
  *	where 0 <= heap.heap_size <= heap.length are valid elements of the heap.
+ *
+ *
+ *  javac HeapBasedMedianMaintenanceAlgo.java
+ *  java HeapBasedMedianMaintenanceAlgo
  */
 
 import java.util.*;

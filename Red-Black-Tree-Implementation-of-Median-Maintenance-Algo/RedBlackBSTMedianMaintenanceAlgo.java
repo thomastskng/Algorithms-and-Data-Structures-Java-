@@ -1,6 +1,8 @@
 /*
  *	Red Black Tree.java
  *
+ *  javac RedBlackBSTMedianMaintenanceAlgo.java
+ *  java RedBlackTreeMedianMaintenanceAlgo
  *	The answer is 1213.
  */
 

@@ -1,3 +1,9 @@
+/*
+ *  javac RandomisedContractionAlgo.java
+ *  java RunAlgo
+ */
+
+
 // could TRY HashMap of Linked list Next TIME
 import java.util.*;
 import java.io.*;
