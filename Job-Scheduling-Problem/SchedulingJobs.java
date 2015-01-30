@@ -78,9 +78,13 @@ class Job implements Comparable<Job>{
 
 class RunAlgo{
     public static void main(String[] args) throws IOException{
-        Job[] schedule = null;
-        schedule = read_file_and_populate(schedule, "jobs.txt");
-        quickSortAlgo(schedule);
+        try{
+            Job[] schedule = null;
+            schedule = read_file_and_populate(schedule, "jobs.txt");
+            quickSortAlgo(schedule);
+        } catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static Job[] read_file_and_populate(Job[] schedule, String file_loc) throws IOException{

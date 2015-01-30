@@ -351,10 +351,14 @@ class UnionFindDisjointSetForest{
 class MSTKruskalAlgo{
 
     public static void main(String[] args) throws IOException{
-        Graph uag = new Graph();
-        read_file_and_populate(uag, "clustering1.txt");
-        // uag.display();
-        HashSet<Edge> ee = MSTKruskalAlgo(uag);
+        try{
+            Graph uag = new Graph();
+            read_file_and_populate(uag, "clustering1.txt");
+            // uag.display();
+            HashSet<Edge> ee = MSTKruskalAlgo(uag);
+        } catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
      public static void read_file_and_populate(Graph uag, String file_loc) throws IOException{

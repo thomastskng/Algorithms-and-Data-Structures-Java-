@@ -453,10 +453,14 @@ class Heap{
 
 class MSTPrimAlgo{
     public static void main(String[] args) throws IOException{
-        Graph uag = new Graph();
-        read_file_and_populate(uag, "edges.txt");
-        //uag.display();
-        MSTPrim(uag, uag.getRoot());
+        try{
+            Graph uag = new Graph();
+            read_file_and_populate(uag, "edges.txt");
+            //uag.display();
+            MSTPrim(uag, uag.getRoot());
+        } catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static void read_file_and_populate(Graph uag, String file_loc) throws IOException{

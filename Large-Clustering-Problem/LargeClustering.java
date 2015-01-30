@@ -278,18 +278,21 @@ class UnionFindDisjointSetForest{
 
 class ClusteringAlgo{
     public static void main(String[] args) throws IOException{
-        HashMap<Integer[], Integer> bitToNode = new HashMap<Integer[], Integer>();
-        BinaryTree bt = new BinaryTree();
-        long startTime = System.currentTimeMillis();
-        int size = read_file_and_populate(bitToNode, bt,"clustering_big.txt");
-        long endTime = System.currentTimeMillis();
-        System.out.println("Load file: " + (endTime - startTime) + " milliseconds");
-        //display(bitToNode);
-        startTime = System.currentTimeMillis();
-        kClusteringAlgo(bitToNode, bt, size);
-        endTime = System.currentTimeMillis();
-        System.out.println("Clustering: " + (endTime - startTime) + " milliseconds");
-
+        try{
+            HashMap<Integer[], Integer> bitToNode = new HashMap<Integer[], Integer>();
+            BinaryTree bt = new BinaryTree();
+            long startTime = System.currentTimeMillis();
+            int size = read_file_and_populate(bitToNode, bt,"clustering_big.txt");
+            long endTime = System.currentTimeMillis();
+            System.out.println("Load file: " + (endTime - startTime) + " milliseconds");
+            //display(bitToNode);
+            startTime = System.currentTimeMillis();
+            kClusteringAlgo(bitToNode, bt, size);
+            endTime = System.currentTimeMillis();
+            System.out.println("Clustering: " + (endTime - startTime) + " milliseconds");
+        } catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static int read_file_and_populate(HashMap<Integer[], Integer> bitToNode, BinaryTree binarytree ,String file_loc) throws IOException{

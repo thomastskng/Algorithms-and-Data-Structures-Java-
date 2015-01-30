@@ -13,10 +13,14 @@ import java.lang.*;
 
 class NaiveImplementationDijkstraAlgo{
     public static void main(String[] args) throws IOException{
-        Graph dag = new Graph();
-        dag.read_file_and_populate("dijkstraData.txt");
-        dijkstrasAlgo(dag, dag.getExistingVertex(1));
-        reportAnswer(dag);
+        try{
+            Graph dag = new Graph();
+            dag.read_file_and_populate("dijkstraData.txt");
+            dijkstrasAlgo(dag, dag.getExistingVertex(1));
+            reportAnswer(dag);
+        } catch(IOException e){
+            e.printStackTrace();
+        }
     }
 
         // initialization

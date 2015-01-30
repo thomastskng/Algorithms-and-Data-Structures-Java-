@@ -53,11 +53,15 @@ class RecursiveKnapsackAlgo{
 
 class RecursiveKnapsack{
     public static void main(String[] args) throws IOException{
-        RecursiveKnapsackAlgo ka = read_file_and_populate("knapsack1.txt");
-        System.out.println("optimal value = " + ka.recursiveKnapsack((ka.v.length-1), ka.W));
+        try{
+            RecursiveKnapsackAlgo ka = read_file_and_populate("knapsack1.txt");
+            System.out.println("optimal value = " + ka.recursiveKnapsack((ka.v.length-1), ka.W));
 
-        ka = read_file_and_populate("knapsack_big.txt");
-        System.out.println("optimal value (large knapsack problem) = " + ka.recursiveKnapsack((ka.v.length-1), ka.W));
+            ka = read_file_and_populate("knapsack_big.txt");
+            System.out.println("optimal value (large knapsack problem) = " + ka.recursiveKnapsack((ka.v.length-1), ka.W));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
     public static RecursiveKnapsackAlgo read_file_and_populate(String file_loc) throws IOException{
