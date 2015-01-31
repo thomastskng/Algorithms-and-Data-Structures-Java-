@@ -12,4 +12,4 @@ the (k/2)th smallest number among x1,…,xk.)
 **Output**: the sum of these 10000 medians, modulo 10000 (i.e., only the last 4
  digits). That is, (m1+m2+m3+⋯+m10000) mod 10000.
  
-The code here uses a heap-based approach.
+The code here uses a **heap-based** approach.
