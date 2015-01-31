@@ -12,4 +12,5 @@ with labels 155,56,52,120,......,etc.
 The randomized contraction algorithm is used for the min cut problem and
 applied to the text file. 
 
-**Subtle Point**: This requires cloning the graph. 
+**Subtle Point**: This requires an efficient implementation for cloning the old graph everytime there is
+  an edge contraction. 
