@@ -1,4 +1,4 @@
-**Heap-based-Median-Maintanence-Algorithm**
+**Heap-based Median Maintanence Algorithm**
 ----------------------------------------------
 The goal of this problem is to implement the "Median Maintenance"
 algorithm. The text
