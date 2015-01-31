@@ -1,7 +1,7 @@
 **Heap-based-Median-Maintanence-Algorithm**
 ----------------------------------------------
 The goal of this problem is to implement the "Median Maintenance"
-algorithm (covered in the Week 5 lecture on heap applications). The text
+algorithm. The text
 file contains a list of the integers from 1 to 10000 in unsorted order;
 we should treat this as a stream of numbers, arriving one by
 one. Letting xi denote the ith number of the file, the kth median mk is
