@@ -1,4 +1,5 @@
-### MergeSort
+MergeSort
+-----------------
 Perform MergeSort(**divide-and-conquer algorithm**) on the 100,000 integers within the text file. Note
 that no integers are repeated. 
 
