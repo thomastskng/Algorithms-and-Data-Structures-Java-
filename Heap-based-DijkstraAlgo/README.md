@@ -19,5 +19,5 @@ vertex 1, we'll define the shortest-path distance between 1 and v to be
 The script output the shortest-path distances to the following ten
 vertices, in order: 7,37,59,82,99,115,133,165,188,197.
 
-The script contains a heap-ased(efficient) implementation of Dijkstra's shortest path algorithm.
+The script contains a heap-based(efficient) implementation of Dijkstra's shortest path algorithm.
 
