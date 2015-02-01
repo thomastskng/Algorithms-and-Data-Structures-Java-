@@ -1,7 +1,9 @@
 **Job Scheduling Problem**
 ----------------------------------------------
 The script contains a greedy algorithm for minimizing the weighted sum
-of completion times. This file describes a set of jobs with positive and integral weights and lengths. It has the format
+of completion times. This file describes a set of jobs with positive and
+integral weights and lengths. It has the format
+
 [number_of_jobs]
 [job_1_weight] [job_1_length]
 [job_2_weight] [job_2_length]
