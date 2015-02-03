@@ -16,7 +16,7 @@ Implementation of different algorithms and data structures:
 * [**Clustering Problem using Kruskal's Algorithm**](Kruskals-Algorithm/)  
 * [**LARGE Clustering Problem**](Large-Clustering-Problem/)
 * [**Knapsack Algorithm**](Knapsack-Algorithm/)
-  + It contains two separate implementations: iterative and recursive
+  + It contains two separate implementations of depth-first search: iterative and recursive
 * [**Floyd Warshall Algorithm**](Floyd-Warshall-Algorithm/)
 * [**Johnsons Algorithm**](Johnsons-Algorithm/)
 
