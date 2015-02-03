@@ -6,8 +6,11 @@ k-clustering. The text file describes a  distance function
 format:
 
 [number_of_nodes]
+
 [edge 1 node 1] [edge 1 node 2] [edge 1 cost]
+
 [edge 2 node 1] [edge 2 node 2] [edge 2 cost]
+
 ...
 
 There is one edge (i,j) for each choice of 1≤i<j≤n, where n is the
