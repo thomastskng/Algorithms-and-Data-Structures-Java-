@@ -21,7 +21,7 @@ Implementation of different algorithms and data structures:
 * [**Johnsons Algorithm**](Johnsons-Algorithm/)
 
 
-**Note:** some codes still need to be further optimized. 
+**Note:** some of the codes still need to be further optimized. 
 
 
 
